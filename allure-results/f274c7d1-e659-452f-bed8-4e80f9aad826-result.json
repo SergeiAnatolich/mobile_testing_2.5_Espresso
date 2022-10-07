@@ -1,0 +1,53 @@
+{
+    "name": "testCheckTextOnHomeScreen",
+    "start": 1665166889966,
+    "stop": 1665166891623,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f274c7d1-e659-452f-bed8-4e80f9aad826",
+    "historyId": "6774f89c02d89a071f743d9fa3893aa3",
+    "fullName": "ru.kkuzmichev.simpleappforespresso.HomeWorkTest.testCheckTextOnHomeScreen",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.kkuzmichev.simpleappforespresso"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.kkuzmichev.simpleappforespresso.HomeWorkTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testCheckTextOnHomeScreen"
+        },
+        {
+            "name": "suite",
+            "value": "ru.kkuzmichev.simpleappforespresso.HomeWorkTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(485)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
