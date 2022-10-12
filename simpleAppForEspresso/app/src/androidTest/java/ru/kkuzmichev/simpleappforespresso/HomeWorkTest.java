@@ -1,8 +1,8 @@
 package ru.kkuzmichev.simpleappforespresso;
 
-
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 import androidx.test.espresso.ViewInteraction;
@@ -26,6 +26,7 @@ public class HomeWorkTest {
         ViewInteraction mainText = onView(
                 ViewMatchers.withId(R.id.text_home)
         );
+        mainText.check(matches(isDisplayed()));
         mainText.check(
                 matches(
                         withText("This is home fragment")));
